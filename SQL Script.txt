@@ -1,0 +1,27 @@
+CREATE TABLE [dbo].[EmployeeMaster](
+	[EmpMasterID] [int] IDENTITY(1,1) NOT NULL,
+	[EmployeeCode] [int] NOT NULL,
+	[EmployeeName] [nvarchar](100) NULL,
+	[Gender] [nvarchar](50) NULL,
+	[Age] [int] NULL,
+	[Designation] [nvarchar](50) NULL,
+	[Salary] [int] NULL,
+	[State] [nvarchar](50) NULL,
+	[Country] [nvarchar](50) NULL,
+ CONSTRAINT [PK_EmployeeMaster] PRIMARY KEY CLUSTERED 
+(
+	[EmpMasterID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+
+
+
+
+CREATE PROC [dbo].[USP_GETEMPLOYEEDETAILS]
+AS
+BEGIN
+	SELECT * FROM DBO.EmployeeMaster
+END
+GO

@@ -1,0 +1,8 @@
+C:\Users\Training\Documents\Training Projects\RDLC\RDLC\bin\RDLC.dll.config
+C:\Users\Training\Documents\Training Projects\RDLC\RDLC\bin\RDLC.dll
+C:\Users\Training\Documents\Training Projects\RDLC\RDLC\bin\RDLC.pdb
+C:\Users\Training\Documents\Training Projects\RDLC\RDLC\obj\Debug\RDLC.csprojResolveAssemblyReference.cache
+C:\Users\Training\Documents\Training Projects\RDLC\RDLC\obj\Debug\RdlCompile.cache
+C:\Users\Training\Documents\Training Projects\RDLC\RDLC\obj\Debug\RdlCompile.compiled
+C:\Users\Training\Documents\Training Projects\RDLC\RDLC\obj\Debug\RDLC.dll
+C:\Users\Training\Documents\Training Projects\RDLC\RDLC\obj\Debug\RDLC.pdb
